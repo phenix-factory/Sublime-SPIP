@@ -1,0 +1,19 @@
+<snippet>
+	<content>
+<![CDATA[
+<BOUCLE_$1(DOCUMENTS){id_article}>
+	#LOGO_DOCUMENT
+	#URL_DOCUMENT
+	#TITRE
+	#DESCRIPTIF
+	[(#TAILLE|taille_en_octets)]
+</BOUCLE_$1>
+
+]]></content>
+	<tabTrigger>BOUCLE</tabTrigger>
+	<description>Boucle documents</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

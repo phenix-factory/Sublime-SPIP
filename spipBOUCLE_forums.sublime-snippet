@@ -1,0 +1,16 @@
+<snippet>
+	<content>
+<![CDATA[
+<BOUCLE_$1(FORUMS){id_forum}>
+	#TITRE
+	#TEXTE
+</BOUCLE_$1>
+
+]]></content>
+	<tabTrigger>BOUCLE</tabTrigger>
+	<description>Boucle forums</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
