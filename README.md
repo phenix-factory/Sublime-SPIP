@@ -13,3 +13,13 @@ SUBLIME-SPIP 0.1
 Ajoute les balises des squelettes SPIP à Sublime Text 2.
 
 Utiliser BOUCLE pour obtenir un squelette de boucle basique.
+
+INSTALLATION !
+
+Ajouter ce dépot Git à pakage control (add repository command):
+
+https://github.com/phenix-factory/Sublime-SPIP
+
+Puis installer Sublime-SPIP avec package controle.
+
+C'est fini ! Bon amusement !
