@@ -1,0 +1,8 @@
+{
+		"scope": "source.php",
+		"completions":
+		[
+				/* Balise SPIP */
+				{ "trigger": "include_spip", "contents": "include_spip($0)" }
+		]
+}

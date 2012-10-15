@@ -123,9 +123,14 @@
 				{ "trigger": "#URL_SITE_SPIP", "contents": "#URL_SITE_SPIP" },
 				{ "trigger": "#VAL", "contents": "#VAL{$0}" },
 				{ "trigger": "#VISITES", "contents": "#VISITES" },
+				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "#COMPTEUR_BOUCLE" },
 				
 
 				/* Critère des BOUCLES SPIP*/
-				{ "trigger": "{pagination}", "contents": "{pagination}"}               
+				{ "trigger": "{pagination}", "contents": "{pagination}"},
+				{ "trigger": "{par }", "contents": "{par $0}"},
+				{ "trigger": "{inverse}", "contents": "{inverse}"},
+				{ "trigger": "{tout}", "contents": "{tout}"}
+
 		]
 }
