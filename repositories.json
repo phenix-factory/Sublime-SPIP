@@ -1,0 +1,27 @@
+{
+	"schema_version": "0.2",
+	"repositories": [
+		"https://github.com/phenix-factory/Sublime-SPIP"
+	],
+	"package_name_map": {
+		"Sublime-SPIP": "Sublime-SPIP"
+	},
+	"packages": {
+		"https://github.com/phenix-factory/Sublime-SPIP": [
+			{
+				"name": "Sublime-SPIP",
+				"description": "Plugin Sublime Text 2 pour SPIP",
+				"author": "Debondt Didier",
+				"homepage": "http://www.phenix-factory.net/",
+				"platforms": {
+					"*": [
+						{
+							"version": "0.2",
+							"url": "https://nodeload.github.com/phenix-factory/Sublime-SPIP/zipball/master"
+						}
+					]
+				}
+			}
+		]
+	}
+}
