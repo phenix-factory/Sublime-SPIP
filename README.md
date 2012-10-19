@@ -15,7 +15,7 @@ sql_select
 sql_update
 sql_updateq
 sql_quote
-#URL_ECRIRE
+\#URL_ECRIRE
 {transitteration}
 
 SUBLIME-SPIP 0.2
