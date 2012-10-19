@@ -6,17 +6,17 @@ Correction de #PAGINATION
 Ajout d'un snippet pour sql_fetch
 
 Ajout de: 
-gros_titre
-debut_cadre_relief
-debut_cadre_relief
-generer_url_ecrire
-_request
-sql_select
-sql_update
-sql_updateq
-sql_quote
-\#URL_ECRIRE
-{transitteration}
+* gros_titre
+* debut_cadre_relief
+* debut_cadre_relief
+* generer_url_ecrire
+* _request
+* sql_select
+* sql_update
+* sql_updateq
+* sql_quote
+* \#URL_ECRIRE
+* {transitteration}
 
 SUBLIME-SPIP 0.2
 
