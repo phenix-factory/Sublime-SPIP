@@ -3,7 +3,7 @@
 		[
 				/* Balise SPIP */
 				{ "trigger": "<INCLURE{fond=}>", "contents": "INCLURE{fond=$1}{env}>" },
-				{ "trigger": "#PAGINATION", "contents": "#PAGINATION" },
+				{ "trigger": "#PAGINATION", "contents": "[<p class=\"pagination\">(#PAGINATION)</p>]" },
 				{ "trigger": "#ACCEPTER_FORUM", "contents": "[(#ACCEPTER_FORUM|=={non}|non) $0]" },
 				{ "trigger": "#ANCRE_PAGINATION", "contents": "#ANCRE_PAGINATION" },
 				{ "trigger": "#ARRAY", "contents": "#ARRAY{$1,$0}" },
@@ -124,13 +124,16 @@
 				{ "trigger": "#VAL", "contents": "#VAL{$0}" },
 				{ "trigger": "#VISITES", "contents": "#VISITES" },
 				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "#COMPTEUR_BOUCLE" },
+				{ "trigger": "#URL_ECRIRE", "contents": "#URL_ECRIRE{$0}" },
 				
 
 				/* Critère des BOUCLES SPIP*/
 				{ "trigger": "{pagination}", "contents": "{pagination}"},
 				{ "trigger": "{par }", "contents": "{par $0}"},
 				{ "trigger": "{inverse}", "contents": "{inverse}"},
-				{ "trigger": "{tout}", "contents": "{tout}"}
-
+				{ "trigger": "{tout}", "contents": "{tout}"},
+				
+				// Enlève tout les accents, non documenté !
+				{ "trigger": "{transitteration}", "contents": "{transitteration}"}
 		]
 }

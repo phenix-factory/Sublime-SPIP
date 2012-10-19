@@ -1,3 +1,23 @@
+SUBLIME-SPIP 0.3
+
+Correction de include_spip.
+Correction de #PAGINATION
+
+Ajout d'un snippet pour sql_fetch
+
+Ajout de: 
+gros_titre
+debut_cadre_relief
+debut_cadre_relief
+generer_url_ecrire
+_request
+sql_select
+sql_update
+sql_updateq
+sql_quote
+#URL_ECRIRE
+{transitteration}
+
 SUBLIME-SPIP 0.2
 
 Debut du fichier pour l'auto-complétion PHP avec inclde_spip (Oui une seule fonction, j'ai la flemme)

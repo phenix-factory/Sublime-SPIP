@@ -3,6 +3,20 @@
 		"completions":
 		[
 				/* Balise SPIP */
-				{ "trigger": "include_spip", "contents": "include_spip($0)" }
+				{ "trigger": "include_spip", "contents": "include_spip('$0')" },
+				{ "trigger": "gros_titre", "contents": "gros_titre('$0')" },
+				{ "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0, titre}');" },
+				{ "trigger": "fin_cadre_relief", "contents": "fin_cadre_relief()" },
+				
+				// Equivalement PHP de #URL_ECRIRE
+				{ "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('$1', '$0')" },
+				// Recupérer une varibable
+				{ "trigger": "_request", "contents": "_request('$0')" },
+
+				// Fonction SQL de spip
+				{ "trigger": "sql_select", "contents": "sql_select('${1:champs}', '${2:table}', '${0:where}')" },
+				{ "trigger": "sql_update", "contents": "sql_update('${1:table}', 'array(${2:champ} => ${3:valeur})', '${0:where}')" },
+				{ "trigger": "sql_updateq", "contents": "sql_updateq('${1:table}', 'array(${2:champ} => ${3:valeur})', '${0:where}')" },
+				{ "trigger": "sql_quote", "contents": "sql_quote($0)" }
 		]
 }
