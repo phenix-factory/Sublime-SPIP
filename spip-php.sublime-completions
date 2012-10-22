@@ -2,12 +2,22 @@
 		"scope": "source.php",
 		"completions":
 		[
-				/* Balise SPIP */
+				/* Inclure un fichier via SPIP */
 				{ "trigger": "include_spip", "contents": "include_spip('$0')" },
+				
+				/* Fonction de présentation */
 				{ "trigger": "gros_titre", "contents": "gros_titre('$0')" },
-				{ "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0, titre}');" },
+
+				{ "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0:titre}');" },
+				
 				{ "trigger": "fin_cadre_relief", "contents": "fin_cadre_relief()" },
 				
+				{ "trigger": "debut_grand_cadre", "contents": "debut_grand_cadre(${0:true})" },
+				{ "trigger": "fin_grand_cadre", "contents": "fin_grand_cadre(${0:true})" },
+				
+				/*Equivalent de inclure, mais en PHP*/
+				{ "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
+
 				// Equivalement PHP de #URL_ECRIRE
 				{ "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('$1', '$0')" },
 				// Recupérer une varibable

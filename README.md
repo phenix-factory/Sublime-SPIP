@@ -1,5 +1,15 @@
 ##SUBLIME-SPIP 0.3
 
+Ajout des fonction PHP
+
+* debut_grand_cadre
+* fin_grand_cadre
+* recuperer_fond
+
+Correction du bug de debut_cadre_relief
+
+##SUBLIME-SPIP 0.3
+
 Correction de include_spip.
 Correction de #PAGINATION
 
