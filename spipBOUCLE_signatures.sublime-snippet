@@ -8,6 +8,7 @@
 	#DATE
 </BOUCLE_$1>
 </B_$1>
+<//B_$1>
 ]]></content>
 	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle signatures</description>

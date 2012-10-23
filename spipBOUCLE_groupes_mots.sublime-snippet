@@ -6,6 +6,7 @@
 	#TITRE
 </BOUCLE_$1>
 </B_$1>
+<//B_$1>
 ]]></content>
 	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle groupes_mots</description>
