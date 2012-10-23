@@ -1,11 +1,12 @@
 <snippet>
 	<content>
 <![CDATA[
+<B_$1>
 <BOUCLE_$1(FORUMS){id_forum}>
 	#TITRE
 	#TEXTE
 </BOUCLE_$1>
-
+</B_$1>
 ]]></content>
 	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle forums</description>

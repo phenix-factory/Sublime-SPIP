@@ -1,6 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
+<B_$1>
 <BOUCLE_$1(DOCUMENTS){id_article}>
 	#LOGO_DOCUMENT
 	#URL_DOCUMENT
@@ -8,7 +9,7 @@
 	#DESCRIPTIF
 	[(#TAILLE|taille_en_octets)]
 </BOUCLE_$1>
-
+</B_$1>
 ]]></content>
 	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle documents</description>

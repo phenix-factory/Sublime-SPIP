@@ -1,10 +1,11 @@
 <snippet>
 	<content>
 <![CDATA[
+<B_$1>
 <BOUCLE_$1(GROUPES_MOTS)>
 	#TITRE
 </BOUCLE_$1>
-
+</B_$1>
 ]]></content>
 	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle groupes_mots</description>
