@@ -25,8 +25,14 @@
 
 				// Fonction SQL de spip
 				{ "trigger": "sql_select", "contents": "sql_select('${1:champs}', '${2:table}', '${0:where}')" },
+				{ "trigger": "sql_get_select", "contents": "sql_get_select('${1:champs}', '${2:table}', '${0:where}')" },
+				{ "trigger": "sql_fetsel", "contents": "sql_fetsel('${1:champs}', '${2:table}', '${0:where}')" },
+				{ "trigger": "sql_getfetsel", "contents": "sql_getfetsel('${1:champs}', '${2:table}', '${0:where}')" },
+				{ "trigger": "sql_countsel", "contents": "sql_countsel('${1:table}', '${0:where}')" },
+				
 				{ "trigger": "sql_update", "contents": "sql_update('${1:table}', 'array(${2:champ} => ${3:valeur})', '${0:where}')" },
 				{ "trigger": "sql_updateq", "contents": "sql_updateq('${1:table}', 'array(${2:champ} => ${3:valeur})', '${0:where}')" },
-				{ "trigger": "sql_quote", "contents": "sql_quote($0)" }
+				{ "trigger": "sql_quote", "contents": "sql_quote(${0:var})" }
+				
 		]
 }

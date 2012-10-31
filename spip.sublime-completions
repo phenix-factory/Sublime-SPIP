@@ -125,15 +125,16 @@
 				{ "trigger": "#VISITES", "contents": "#VISITES" },
 				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "#COMPTEUR_BOUCLE" },
 				{ "trigger": "#URL_ECRIRE", "contents": "#URL_ECRIRE{$0}" },
+				{ "trigger": "#TITRE", "contents": "[(#TITRE|supprimer_numero)]" },
 				
 
 				/* Critère des BOUCLES SPIP*/
-				{ "trigger": "{pagination}", "contents": "{pagination}"},
-				{ "trigger": "{par }", "contents": "{par $0}"},
-				{ "trigger": "{inverse}", "contents": "{inverse}"},
-				{ "trigger": "{tout}", "contents": "{tout}"},
+				{ "trigger": "{pagination}", "contents": "pagination}"},
+				{ "trigger": "{par }", "contents": "par $0}"},
+				{ "trigger": "{inverse}", "contents": "inverse}"},
+				{ "trigger": "{tout}", "contents": "tout}"},
 				
-				// Enlève tout les accents, non documenté !
-				{ "trigger": "{transitteration}", "contents": "{transitteration}"}
+				// Enlève tout les accents, non documenté dans spip !
+				{ "trigger": "{transitteration}", "contents": "transitteration}"}
 		]
 }

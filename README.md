@@ -8,6 +8,18 @@ Puis installer Sublime-SPIP avec package controle.
 
 C'est fini ! Bon amusement !
 
+##SUBLIME-SPIP 0.4
+
+* Ajout de sql_get_select
+* Ajout de sql_fetsel
+* Ajout de sql_getfetsel
+* Ajout de sql_countsel
+* Ajout d'un snipet "template" pour les fichiers de langue de spip: **SPIP_lang**
+* Ajout de de snippet pour les formulaire CVT de spip: **spip_formCVT_html** et **spip_formCVT_php**
+
+* Correction de sql_quote
+* Correction des complétions pour les critières
+
 ##SUBLIME-SPIP 0.3
 
 Ajout des fonction PHP

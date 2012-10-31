@@ -1,0 +1,27 @@
+<snippet>
+	<content>
+<![CDATA[
+<div class="formulaire_spip formulaire_ajouterInscrit">
+ 
+[<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
+[<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
+ 
+<form action="#ENV{action}" method="post">
+        #ACTION_FORMULAIRE{#ENV{action}}
+        <ul>
+        	#SET{erreurs,#ENV**{erreurs}|table_valeur{NomErreur}}
+			<li class="editer_ajouterInscrit obligatoire[ (#GET{erreurs}|oui)erreur]">
+				[<span class='erreur_message'>(#GET{erreurs})</span>]
+			    
+			</li>
+        </ul>
+        <p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
+</form>
+</div>
+]]></content>
+	<description>HTML: Fomulaire simple</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spip_formCVT_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
