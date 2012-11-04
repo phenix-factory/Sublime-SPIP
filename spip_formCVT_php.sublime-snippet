@@ -24,8 +24,9 @@ function formulaires_${0:nonForm}_traiter_dist() {
 
         // message
         return array(
-                "editable" => true,
-                "message_ok" => "Et voilà la traduction !",
+                'editable' => true,
+                'message_ok' => '',
+                'redirect' => ''
         );
 }
 ?>

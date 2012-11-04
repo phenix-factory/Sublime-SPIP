@@ -1,14 +1,21 @@
 #INSTALLATION !
 
-Ajouter ce dépot Git à pakage control (add repository command):
+Ajouter ce dépot Git à [pakage control](http://wbond.net/sublime_packages/package_control) (**add repository** command):
 
 https://github.com/phenix-factory/Sublime-SPIP
 
-Puis installer Sublime-SPIP avec package controle.
+Puis installer Sublime-SPIP avec [pakage control](http://wbond.net/sublime_packages/package_control).
 
 C'est fini ! Bon amusement !
 
-##SUBLIME-SPIP 0.4
+##SUBLIME-SPIP 0.6
+
+* Ajout d'un scope pour n'afficher les balise SPIP que dans des fichier html
+* Ajout de la balise #TEXTE
+* Correction du snippet **spip_formCVT_php**
+* Ajout de l'option redirect dans le snippet **spip_formCVT_php**
+
+##SUBLIME-SPIP 0.5
 
 * Ajout de sql_get_select
 * Ajout de sql_fetsel
@@ -20,7 +27,7 @@ C'est fini ! Bon amusement !
 * Correction de sql_quote
 * Correction des complétions pour les critières
 
-##SUBLIME-SPIP 0.3
+##SUBLIME-SPIP 0.4
 
 Ajout des fonction PHP
 

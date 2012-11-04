@@ -1,4 +1,5 @@
 {
+		"scope": "text.html",
 		"completions":
 		[
 				/* Balise SPIP */
@@ -126,6 +127,8 @@
 				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "#COMPTEUR_BOUCLE" },
 				{ "trigger": "#URL_ECRIRE", "contents": "#URL_ECRIRE{$0}" },
 				{ "trigger": "#TITRE", "contents": "[(#TITRE|supprimer_numero)]" },
+				{ "trigger": "#TEXTE", "contents": "[(#TEXTE)]" },
+
 				
 
 				/* Critère des BOUCLES SPIP*/
