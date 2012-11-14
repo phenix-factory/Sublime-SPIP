@@ -1,12 +1,19 @@
 #INSTALLATION !
 
-Ajouter ce dépot Git à [pakage control](http://wbond.net/sublime_packages/package_control) ( **add repository** command):
 
-https://github.com/phenix-factory/Sublime-SPIP
 
-Puis installer Sublime-SPIP avec [pakage control](http://wbond.net/sublime_packages/package_control).
+Ce plugin s’installe via [package control](http://wbond.net/sublime_packages/package_control).
+La procédure d’installation de package control se trouve [ici](http://wbond.net/sublime_packages/package_control/installation).
 
-C'est fini ! Bon amusement !
+Une fois l’installation terminée, ouvrer la console de Sublime text 2 (_Tools => Command palette_), et sélectionnez la commande « Add repository ».
+Il suffit maintenant d’ajouter le dépôt GitHub, dans la console en bas qui vient de s’ouvrir.
+
+	https://github.com/phenix-factory/Sublime-SPIP
+
+Une fois cela fait, rouvrez la console Sublime Texte (_Tools => Command palette_) et cherchez *« Install package »*. Ensuite, cherchez Sublime-SPIP.
+
+Enjoy !
+
 
 ##SUBLIME-SPIP 0.7
 
@@ -23,8 +30,8 @@ C'est fini ! Bon amusement !
 
 * Ajout d'un scope pour n'afficher les balise SPIP que dans des fichier html
 * Ajout de la balise #TEXTE
-* Correction du snippet **spip_formCVT_php**
-* Ajout de l'option redirect dans le snippet **spip_formCVT_php**
+* Correction du snippet *spip_formCVT_php*
+* Ajout de l'option redirect dans le snippet *spip_formCVT_php*
 
 ##SUBLIME-SPIP 0.5
 
@@ -32,8 +39,8 @@ C'est fini ! Bon amusement !
 * Ajout de sql_fetsel
 * Ajout de sql_getfetsel
 * Ajout de sql_countsel
-* Ajout d'un snipet "template" pour les fichiers de langue de spip: **SPIP_lang**
-* Ajout de de snippet pour les formulaire CVT de spip: **spip_formCVT_html** et **spip_formCVT_php**
+* Ajout d'un snipet "template" pour les fichiers de langue de spip: *SPIP_lang*
+* Ajout de de snippet pour les formulaire CVT de spip: *spip_formCVT_html* et *spip_formCVT_php*
 
 * Correction de sql_quote
 * Correction des complétions pour les critières
@@ -46,7 +53,7 @@ Ajout des fonction PHP
 * fin_grand_cadre
 * recuperer_fond
 
-Correction du bug de debut_cadre_relief
+* Correction du bug de debut_cadre_relief
 
 ##SUBLIME-SPIP 0.3
 
@@ -72,14 +79,13 @@ Ajout de:
 
 Debut du fichier pour l'auto-complétion PHP avec inclde_spip (Oui une seule fonction, j'ai la flemme)
 
-Ajout de la balise #COMPTEUR_BOUCLE
-Ajout des critères SPIP:
-{par }
-{inverse}
-{tout}
+* Ajout de la balise #COMPTEUR_BOUCLE
+* Ajout des critères SPIP:
+* {par }
+* {inverse}
+* {tout}
 
 ##SUBLIME-SPIP 0.1
 
-Ajoute les balises des squelettes SPIP à Sublime Text 2.
-
-Utiliser BOUCLE pour obtenir un squelette de boucle basique.
+* Ajoute les balises des squelettes SPIP à Sublime Text 2.
+* Utiliser BOUCLE pour obtenir un squelette de boucle basique.
