@@ -15,6 +15,9 @@
 				{ "trigger": "debut_grand_cadre", "contents": "debut_grand_cadre(${0:true})" },
 				{ "trigger": "fin_grand_cadre", "contents": "fin_grand_cadre(${0:true})" },
 				
+				/*Récupération d'une varible de session SPIP (Mais pourquoi ils font ça les cons --' */
+				{ "trigger": "session_get", "contents": "session_get(${0:text})" },
+
 				/*Equivalent de inclure, mais en PHP*/
 				{ "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
 

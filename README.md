@@ -1,12 +1,23 @@
 #INSTALLATION !
 
-Ajouter ce dépot Git à [pakage control](http://wbond.net/sublime_packages/package_control) (**add repository** command):
+Ajouter ce dépot Git à [pakage control](http://wbond.net/sublime_packages/package_control) ( **add repository** command):
 
 https://github.com/phenix-factory/Sublime-SPIP
 
 Puis installer Sublime-SPIP avec [pakage control](http://wbond.net/sublime_packages/package_control).
 
 C'est fini ! Bon amusement !
+
+##SUBLIME-SPIP 0.7
+
+* Ajout des filtres SPIP
+* Ajout de la fonction PHP get_session()
+* Correction de <INCLURE>
+* Correction de #NOTES
+* Correction de #PS
+* Correction de #SOUSTITRE et #SURTITRE
+* Ajoute de #URL_PAGE
+* Correction des bug des snippets LANG et formulaires
 
 ##SUBLIME-SPIP 0.6
 
