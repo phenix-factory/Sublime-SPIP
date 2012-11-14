@@ -5,12 +5,12 @@
 Ce plugin s’installe via [package control](http://wbond.net/sublime_packages/package_control).
 La procédure d’installation de package control se trouve [ici](http://wbond.net/sublime_packages/package_control/installation).
 
-Une fois l’installation terminée, ouvrer la console de Sublime text 2 (_Tools => Command palette_), et sélectionnez la commande « Add repository ».
+Une fois l’installation terminée, ouvrer la console de Sublime text 2 (*Tools => Command palette*), et sélectionnez la commande **« Add repository »**.
 Il suffit maintenant d’ajouter le dépôt GitHub, dans la console en bas qui vient de s’ouvrir.
 
 	https://github.com/phenix-factory/Sublime-SPIP
 
-Une fois cela fait, rouvrez la console Sublime Texte (_Tools => Command palette_) et cherchez *« Install package »*. Ensuite, cherchez Sublime-SPIP.
+Une fois cela fait, rouvrez la console Sublime Texte (*Tools => Command palette*) et cherchez **« Install package »**. Ensuite, cherchez Sublime-SPIP.
 
 Enjoy !
 
@@ -30,8 +30,8 @@ Enjoy !
 
 * Ajout d'un scope pour n'afficher les balise SPIP que dans des fichier html
 * Ajout de la balise #TEXTE
-* Correction du snippet *spip_formCVT_php*
-* Ajout de l'option redirect dans le snippet *spip_formCVT_php*
+* Correction du snippet **spip_formCVT_php**
+* Ajout de l'option redirect dans le snippet **spip_formCVT_php**
 
 ##SUBLIME-SPIP 0.5
 
@@ -39,8 +39,8 @@ Enjoy !
 * Ajout de sql_fetsel
 * Ajout de sql_getfetsel
 * Ajout de sql_countsel
-* Ajout d'un snipet "template" pour les fichiers de langue de spip: *SPIP_lang*
-* Ajout de de snippet pour les formulaire CVT de spip: *spip_formCVT_html* et *spip_formCVT_php*
+* Ajout d'un snipet "template" pour les fichiers de langue de spip: **SPIP_lang**
+* Ajout de de snippet pour les formulaire CVT de spip: **spip_formCVT_html** et **spip_formCVT_php**
 
 * Correction de sql_quote
 * Correction des complétions pour les critières
