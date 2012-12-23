@@ -15,11 +15,11 @@
 				{ "trigger": "#CHAPO", "contents": "#CHAPO" },
 				{ "trigger": "#CHARSET", "contents": "#CHARSET" },
 				{ "trigger": "#CHEMIN", "contents": "#CHEMIN{$0}" },
-				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "#COMPTEUR_BOUCLE" },
+				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "[(#COMPTEUR_BOUCLE)]" },
 				{ "trigger": "#CONFIG", "contents": "[(#CONFIG{$0})]" },
-				{ "trigger": "#DATE", "contents": "#DATE" },
-				{ "trigger": "#DATE_MODIF", "contents": "#DATE_MODIF" },
-				{ "trigger": "#DATE_REDAC", "contents": "#DATE_REDAC" },
+				{ "trigger": "#DATE", "contents": "[(#DATE)]" },
+				{ "trigger": "#DATE_MODIF", "contents": "[(#DATE_MODIF)]" },
+				{ "trigger": "#DATE_REDAC", "contents": "[(#DATE_REDAC)]" },
 				{ "trigger": "#DESCRIPTIF", "contents": "#DESCRIPTIF" },
 				{ "trigger": "#DESCRIPTIF_SITE_SPIP", "contents": "#DESCRIPTIF_SITE_SPIP" },
 				{ "trigger": "#DISTANT", "contents": "[(#DISTANT|=={oui}|oui) $0]" },
@@ -107,7 +107,7 @@
 				{ "trigger": "#SQUELETTE", "contents": "#SQUELETTE" },
 				{ "trigger": "#SURTITRE", "contents": "[(#SURTITRE)]" },
 				{ "trigger": "#TAILLE", "contents": "[(#TAILLE|taille_en_octets)]" },
-				{ "trigger": "#TOTAL_BOUCLE", "contents": "#TOTAL_BOUCLE" },
+				{ "trigger": "#TOTAL_BOUCLE", "contents": "[(#TOTAL_BOUCLE)]" },
 				{ "trigger": "#TOTAL_UNIQUE", "contents": "#TOTAL_UNIQUE{$0}" },
 				{ "trigger": "#TYPE", "contents": "#TYPE" },
 				{ "trigger": "#TYPE_DOCUMENT", "contents": "#TYPE_DOCUMENT" },
@@ -250,6 +250,7 @@
 				{ "trigger": "{par }", "contents": "par $0}"},
 				{ "trigger": "{inverse}", "contents": "inverse}"},
 				{ "trigger": "{tout}", "contents": "tout}"},
+				{ "trigger": "{origine_traduction}", "contents": "origine_traduction}"},
 				
 				// Enlève tout les accents, non documenté dans spip !
 				{ "trigger": "{transitteration}", "contents": "transitteration}"}

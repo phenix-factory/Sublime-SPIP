@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-<div class="formulaire_spip formulaire_ajouterInscrit">
+<div class="formulaire_spip formulaire_#FORM">
  
 [<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
 [<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
@@ -10,7 +10,7 @@
     #ACTION_FORMULAIRE{#ENV{action}}
     <ul>
     	#SET{erreurs,#ENV**{erreurs}|table_valeur{NomErreur}}
-		<li class="editer_ajouterInscrit obligatoire[ (#GET{erreurs}|oui)erreur]">
+		<li class="editer_#FORM obligatoire[ (#GET{erreurs}|oui)erreur]">
 			[<span class='erreur_message'>(#GET{erreurs})</span>]
 		    
 		</li>
