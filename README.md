@@ -14,6 +14,12 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.8
+
+* Corretion des paramètres des fonctions sql_.
+* Correction de certaines balises.
+* Ajout de #FORM dans le snippet du formulaire CVT html.
+* Ajout d'un Snippet pour créer des icones admin SPIP via PHP.
 
 ##SUBLIME-SPIP 0.7
 
