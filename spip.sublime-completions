@@ -15,7 +15,7 @@
 				{ "trigger": "#CHAPO", "contents": "#CHAPO" },
 				{ "trigger": "#CHARSET", "contents": "#CHARSET" },
 				{ "trigger": "#CHEMIN", "contents": "#CHEMIN{$0}" },
-				{ "trigger": "#COMPTEUR_BOUCLE", "contents": "[(#COMPTEUR_BOUCLE)]" },
+				{ "trigger": "#COMPTEUR_", "contents": "[(#COMPTEUR_BOUCLE)]" },
 				{ "trigger": "#CONFIG", "contents": "[(#CONFIG{$0})]" },
 				{ "trigger": "#DATE", "contents": "[(#DATE)]" },
 				{ "trigger": "#DATE_MODIF", "contents": "[(#DATE_MODIF)]" },
@@ -107,7 +107,7 @@
 				{ "trigger": "#SQUELETTE", "contents": "#SQUELETTE" },
 				{ "trigger": "#SURTITRE", "contents": "[(#SURTITRE)]" },
 				{ "trigger": "#TAILLE", "contents": "[(#TAILLE|taille_en_octets)]" },
-				{ "trigger": "#TOTAL_BOUCLE", "contents": "[(#TOTAL_BOUCLE)]" },
+				{ "trigger": "#TOTAL_", "contents": "[(#TOTAL_BOUCLE)]" },
 				{ "trigger": "#TOTAL_UNIQUE", "contents": "#TOTAL_UNIQUE{$0}" },
 				{ "trigger": "#TYPE", "contents": "#TYPE" },
 				{ "trigger": "#TYPE_DOCUMENT", "contents": "#TYPE_DOCUMENT" },
@@ -129,6 +129,7 @@
 				{ "trigger": "#TITRE", "contents": "[(#TITRE|supprimer_numero)]" },
 				{ "trigger": "#TEXTE", "contents": "[(#TEXTE)]" },
 				{ "trigger": "#URL_PAGE", "contents": "#URL_PAGE{$0}" },
+				{ "trigger": "#SLOGAN_SITE_SPIP", "contents": "#SLOGAN_SITE_SPIP" },
 				
 
 				/* Filtre SPIP */

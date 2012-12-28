@@ -14,6 +14,10 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.8.1
+
+* Correction d'un conflit sur le mot "BOUCLE" entre #COMPTEUR_BOUCLE/TOTAL_BOUCLE et les snippets pour créer des ... BOUCLE.
+
 ##SUBLIME-SPIP 0.8
 
 * Corretion des paramètres des fonctions sql_.
