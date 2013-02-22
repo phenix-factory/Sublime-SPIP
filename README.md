@@ -1,7 +1,5 @@
 #INSTALLATION !
 
-
-
 Ce plugin s’installe via [package control](http://wbond.net/sublime_packages/package_control).
 La procédure d’installation de package control se trouve [ici](http://wbond.net/sublime_packages/package_control/installation).
 
@@ -13,6 +11,11 @@ Il suffit maintenant d’ajouter le dépôt GitHub, dans la console en bas qui v
 Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette* ) et cherchez **« Install package »**. Ensuite, cherchez Sublime-SPIP.
 
 Enjoy !
+
+##SUBLIME-SPIP 0.8.2
+
+* Amélioration de la gestion de l'API SQL de SPIP
+* Amélioration de generer_url_ecrire
 
 ##SUBLIME-SPIP 0.8.1
 

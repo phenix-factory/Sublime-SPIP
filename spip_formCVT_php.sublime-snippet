@@ -3,31 +3,30 @@
 <![CDATA[
 <?php
 function formulaires_${0:nonForm}_charger_dist() {
-    \$contexte = array(
-            '' => '',
-    );
-    return \$contexte;
+	\$contexte = array(
+			'' => '',
+	);
+	return \$contexte;
 }
 
 function formulaires_${0:nonForm}_verifier_dist() {
-    \$erreurs = array();
-    if (!_request('')) {
-            \$erreurs['message_erreur'] = '';
-            \$erreurs['NomErreur'] = '';
-    }
-    return \$erreurs;
+	\$erreurs = array();
+	if (!_request('')) {
+			\$erreurs['message_erreur'] = '';
+			\$erreurs['NomErreur'] = '';
+	}
+	return \$erreurs;
 }
 
 function formulaires_${0:nonForm}_traiter_dist() {
- 		
 	\$data = _request('data');
 
-    // message
-    return array(
-            'editable' => true,
-            'message_ok' => '',
-            'redirect' => ''
-    );
+	/* message */
+	return array(
+			'editable' => true,
+			'message_ok' => '',
+			'redirect' => ''
+	);
 }
 ?>
 ]]></content>
