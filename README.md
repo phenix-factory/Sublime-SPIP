@@ -12,7 +12,7 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
-##SUBLIME-SPIP 0.8.2
+##SUBLIME-SPIP 0.8.3
 
 * Ajoute la find_in_path
 * Modifier icone_inline pour être plus générique
