@@ -14,6 +14,14 @@ Enjoy !
 
 ##SUBLIME-SPIP 0.8.2
 
+* Ajoute la find_in_path
+* Modifier icone_inline pour être plus générique
+* Ajoute icone_horizontale (Spip 3)
+* Supprime le snippet icone_inline puisqu'il est maintenant dans le fichier php générale.
+
+
+##SUBLIME-SPIP 0.8.2
+
 * Amélioration de la gestion de l'API SQL de SPIP
 * Amélioration de generer_url_ecrire
 
