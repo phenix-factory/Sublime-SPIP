@@ -134,6 +134,7 @@
 
 		/* Filtre SPIP */
 		{ "trigger": "|supprimer_numero", "contents": "|supprimer_numero" },
+        { "trigger": "|supprimer_tags", "contents": "|supprimer_tags" },
 		{ "trigger": "|image_reduire", "contents": "|image_reduire{$0}" },
 		{ "trigger": "|abs_url", "contents": "|abs_url" },
 		{ "trigger": "|affdate", "contents": "|affdate{$0}" },
