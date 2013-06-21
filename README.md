@@ -12,9 +12,13 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.8.5
+
+* Ajoute les paramètre à balise_img.
+
 ##SUBLIME-SPIP 0.8.4
 
-* Ajoute le filtre |supprimer_tags 
+* Ajoute le filtre |supprimer_tags.
 
 ##SUBLIME-SPIP 0.8.3
 

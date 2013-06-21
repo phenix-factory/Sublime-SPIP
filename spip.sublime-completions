@@ -154,7 +154,7 @@
 		{ "trigger": "|antispam", "contents": "|antispam" },
 		{ "trigger": "|appliquer_filtre", "contents": "|appliquer_filtre{$0}" },
 		{ "trigger": "|attribut_html", "contents": "|attribut_html" },
-		{ "trigger": "|balise_img", "contents": "|balise_img{$1, $0}" },
+		{ "trigger": "|balise_img", "contents": "|balise_img{${1:alt}, ${0:class}}" },
 		{ "trigger": "|centrer", "contents": "|centrer" },
 		{ "trigger": "|charset2unicode", "contents": "|charset2unicode" },
 		{ "trigger": "|choixsiegal", "contents": "|choixsiegal{${2:valeur}, ${1:sioui}, ${0:sinon}}" },
