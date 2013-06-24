@@ -51,7 +51,11 @@
 			{ "trigger": "sql_insertq", "contents": "sql_insertq('${1:table}', array('${2:champ}' => '${3:valeur}'))" },
 			{ "trigger": "sql_delete", "contents": "sql_delete('${1:table}', '${0:where}')" },
 
-			{ "trigger": "sql_quote", "contents": "sql_quote(${0:var})" }
+			{ "trigger": "sql_quote", "contents": "sql_quote(${0:var})" },
+
+            /* Gestion des sessions de SPIP */
+            { "trigger": "session_set()", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
+            { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" }
 				
 				
 		]

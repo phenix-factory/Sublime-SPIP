@@ -12,6 +12,10 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.8.6
+
+* Ajoute les fonctions de session SPIP: session_set et session_get.
+
 ##SUBLIME-SPIP 0.8.5
 
 * Ajoute les paramètre à balise_img.
