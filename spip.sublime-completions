@@ -3,7 +3,7 @@
 	"completions":
 	[
 		/* Balise SPIP */
-		{ "trigger": "<INCLURE{fond=}>", "contents": "INCLURE{fond=$1, env}>" },
+		{ "trigger": "<INCLURE{fond=}>", "contents": "<INCLURE{fond=$1, env}>" },
 		{ "trigger": "#PAGINATION", "contents": "[<p class=\"pagination\">(#PAGINATION)</p>]" },
 		{ "trigger": "#ACCEPTER_FORUM", "contents": "[(#ACCEPTER_FORUM|=={non}|non) $0]" },
 		{ "trigger": "#ANCRE_PAGINATION", "contents": "#ANCRE_PAGINATION" },
@@ -38,6 +38,7 @@
 		{ "trigger": "#FORMULAIRE_INSCRIPTION", "contents": "[(#FORMULAIRE_INSCRIPTION{${0:6forum}})]" },
 		{ "trigger": "#FORMULAIRE_RECHERCHE", "contents": "[(#FORMULAIRE_RECHERCHE|spip.php?page=$0)]" },
 		{ "trigger": "#FORMULAIRE_SIGNATURE", "contents": "#FORMULAIRE_SIGNATURE" },
+        { "trigger": "#FORMULAIRE_EDITER_LOGO", "contents": "[(#FORMULAIRE_EDITER_LOGO{'${1:objet}',${0:#ID_OBJET},#SELF,#ENV**})]" },
 		{ "trigger": "#SET", "contents": "#SET{$1, $0}" },
 		{ "trigger": "#GET", "contents": "#GET{$0}" },
 		{ "trigger": "#HAUTEUR", "contents": "#HAUTEUR" },
@@ -130,7 +131,6 @@
 		{ "trigger": "#TEXTE", "contents": "[(#TEXTE)]" },
 		{ "trigger": "#URL_PAGE", "contents": "#URL_PAGE{$0}" },
 		{ "trigger": "#SLOGAN_SITE_SPIP", "contents": "#SLOGAN_SITE_SPIP" },
-		
 
 		/* Filtre SPIP */
 		{ "trigger": "|supprimer_numero", "contents": "|supprimer_numero" },

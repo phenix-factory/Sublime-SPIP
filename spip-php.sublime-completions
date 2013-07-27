@@ -36,6 +36,8 @@
 
 			// Recupérer une varibable
 			{ "trigger": "_request", "contents": "_request('$0')" },
+            // Recupérer une varibable
+            { "trigger": "set_request", "contents": "set_request('${1:nom}', ${0:valeur})" },
 
 			// Fonction SQL de spip
 			{ "trigger": "sql_select", "contents": "sql_select('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },

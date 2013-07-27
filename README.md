@@ -12,6 +12,13 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.9
+
+* Ajoute un snippet pour les saisie (appeler via SAISIE).
+* Ajoute la fonction set_request.
+* Corrige <INCLURE>.
+* Ajoute #FORMULAIRE_EDITER_LOGO.
+
 ##SUBLIME-SPIP 0.8.6
 
 * Ajoute les fonctions de session SPIP: session_set et session_get.
