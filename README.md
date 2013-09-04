@@ -12,6 +12,13 @@ Une fois cela fait, rouvrez la console Sublime Texte ( *Tools => Command palette
 
 Enjoy !
 
+##SUBLIME-SPIP 0.9.4
+
+* Correction de placement pour SAISIE si le )] de la fin n'est pas placé correctement ça bug.
+* Ajoute la fonction PHP generer_url_public.
+* Ajoute les paramètres de |image_aplatir.
+* Ajoute le paramètre de couleur de |image_recadre.
+
 ##SUBLIME-SPIP 0.9
 
 * Ajoute un snippet pour les saisie (appeler via SAISIE).

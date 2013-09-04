@@ -9,8 +9,7 @@
         label=${5:label},
         explication=${6:texte},
         li_class=${0:class},
-        datas=[(#ARRAY{})]
-})]
+        datas=[(#ARRAY{})]})]
 
 ]]></content>
 	<description>Créer une saisie pour spip</description>
