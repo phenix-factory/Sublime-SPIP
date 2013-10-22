@@ -16,7 +16,8 @@
     	<ul>
 
     	</ul>
-    	<p class="boutons">
+
+        <p class="boutons">
             <input type="submit" class="submit" value="<:pass_ok:>" />
         </p>
     </form>
