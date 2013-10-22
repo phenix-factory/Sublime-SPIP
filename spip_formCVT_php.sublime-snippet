@@ -1,14 +1,14 @@
 <snippet>
-	<content>
+    <content>
 <![CDATA[
 <?php
 function formulaires_${0:nonForm}_charger_dist() {
-	// Contexte du formulaire.
+    // Contexte du formulaire.
     \$contexte = array(
-		'' => '',
-	);
+        '' => '',
+    );
 
-	return \$contexte;
+    return \$contexte;
 }
 
 /*
@@ -21,26 +21,26 @@ function formulaires_${0:nonForm}_charger_dist() {
 *   Pensez à utiliser _T('info_obligatoire'); pour les éléments obligatoire.
 */
 function formulaires_${0:nonForm}_verifier_dist() {
-	\$erreurs = array();
+    \$erreurs = array();
 
-	return \$erreurs;
+    return \$erreurs;
 }
 
 function formulaires_${0:nonForm}_traiter_dist() {
     //Traitement du formualaire.
 
-	// Donnée de retour.
-	return array(
-			'editable' => true,
-			'message_ok' => '',
-			'redirect' => ''
-	);
+    // Donnée de retour.
+    return array(
+            'editable' => true,
+            'message_ok' => '',
+            'redirect' => ''
+    );
 }
 ?>
 ]]></content>
-	<description>PHP: Fomulaire simple</description>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>spip_formCVT_php</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+    <description>PHP: Fomulaire simple</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>spip_formCVT_php</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
 </snippet>
