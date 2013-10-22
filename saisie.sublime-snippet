@@ -2,7 +2,7 @@
 	<content>
 <![CDATA[
 [(#SAISIE{
-        ${1:input}, 
+        ${1:input},
         ${2:name},
         defaut=${3:valeur},
         obligatoire=${4:oui_non},
@@ -10,7 +10,6 @@
         explication=${6:texte},
         li_class=${0:class},
         datas=[(#ARRAY{})]})]
-
 ]]></content>
 	<description>Créer une saisie pour spip</description>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
