@@ -34,7 +34,7 @@
 			/* gestion des URL de SPIP */
 			{ "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('${1:exec}', '${0:paramètre}')" },
             /* gestion des URL de SPIP */
-            { "trigger": "generer_url_public", "contents": "generer_url_ecrire('${1:exec}', '${0:paramètre}')" },
+            { "trigger": "generer_url_public", "contents": "generer_url_public('${1:exec}', '${0:paramètre}')" },
 
 			// Recupérer une varibable
 			{ "trigger": "_request", "contents": "_request('$0')" },
