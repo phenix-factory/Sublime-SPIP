@@ -5,14 +5,15 @@
 
 [<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
 [<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
+[(#EDITABLE|oui)
+    <form action="#ENV{action}" method="post">
+    	#ACTION_FORMULAIRE{#ENV{action}}
+    	<ul>
 
-<form action="#ENV{action}" method="post">
-	#ACTION_FORMULAIRE{#ENV{action}}
-	<ul>
-
-	</ul>
-	<p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
-</form>
+    	</ul>
+    	<p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
+    </form>
+]
 </div>
 ]]></content>
 	<description>HTML: Fomulaire simple</description>
