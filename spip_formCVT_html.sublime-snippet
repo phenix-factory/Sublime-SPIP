@@ -9,10 +9,7 @@
 <form action="#ENV{action}" method="post">
 	#ACTION_FORMULAIRE{#ENV{action}}
 	<ul>
-		#SET{erreurs,#ENV**{erreurs}|table_valeur{NomErreur}}
-		<li class="editer_#FORM obligatoire[ (#GET{erreurs}|oui)erreur]">
-			[<span class='erreur_message'>(#GET{erreurs})</span>]
-		</li>
+
 	</ul>
 	<p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
 </form>
