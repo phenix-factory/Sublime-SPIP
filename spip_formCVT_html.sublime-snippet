@@ -1,5 +1,5 @@
 <snippet>
-    <content>
+	<content>
 <![CDATA[
 <div class="formulaire_spip formulaire_#FORM">
 
@@ -12,10 +12,10 @@
 
 [(#EDITABLE|oui)
     <form action="#ENV{action}" method="post">
-        #ACTION_FORMULAIRE{#ENV{action}}
-        <ul>
+    	#ACTION_FORMULAIRE{#ENV{action}}
+    	<ul>
 
-        </ul>
+    	</ul>
 
         <p class="boutons">
             <input type="submit" class="submit" value="<:pass_ok:>" />
@@ -24,9 +24,9 @@
 ]
 </div>
 ]]></content>
-    <description>HTML: Fomulaire simple</description>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>spip_formCVT_html</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+	<description>HTML: Fomulaire simple</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spip_formCVT_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
 </snippet>
