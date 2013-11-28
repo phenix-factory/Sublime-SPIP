@@ -10,7 +10,7 @@
 		{ "trigger": "#ARRAY", "contents": "#ARRAY{$1,$0}" },
 		{ "trigger": "#AUTORISER", "contents": "[(#AUTORISER{$2, $3, $0}) $1]" },
 		{ "trigger": "#BIO", "contents": "[(#BIO)]" },
-		{ "trigger": "#BOUTON_ACTION", "contents": "#BOUTON_ACTION{$1, $2, $3, $0}" },
+		{ "trigger": "#BOUTON_ACTION", "contents": "#BOUTON_ACTION{${1:libellé}, ${2:url}, ${3:class}, ${0:message_confirm}}" },
 		{ "trigger": "#CACHE", "contents": "#CACHE{$0}" },
 		{ "trigger": "#CHAPO", "contents": "#CHAPO" },
 		{ "trigger": "#CHARSET", "contents": "#CHARSET" },
