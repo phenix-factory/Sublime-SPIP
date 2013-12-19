@@ -36,7 +36,6 @@ function formulaires_${0:nonForm}_traiter_dist() {
             'redirect' => ''
     );
 }
-?>
 ]]></content>
     <description>PHP: Fomulaire simple</description>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
