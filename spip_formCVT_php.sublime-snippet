@@ -27,7 +27,7 @@ function formulaires_${0:nonForm}_verifier_dist() {
 }
 
 function formulaires_${0:nonForm}_traiter_dist() {
-    //Traitement du formualaire.
+    //Traitement du formulaire.
 
     // Donnée de retour.
     return array(
