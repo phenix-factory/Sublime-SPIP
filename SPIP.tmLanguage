@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>html</string>
+	</array>
+	<key>name</key>
+	<string>HTML (SPIP)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\&lt;BOUCLE(.)</string>
+			<key>end</key>
+			<string>\&gt;</string>
+			<key>name</key>
+			<string>keyword</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\([A-Z]+\)</string>
+					<key>name</key>
+					<string>constant.other.color</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\{</string>
+					<key>end</key>
+					<string>\}</string>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\&lt;/BOUCLE(.)</string>
+			<key>end</key>
+			<string>\&gt;</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\&lt;(\/)*B(.)+\&gt;</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>On cherche les balises seul</string>
+			<key>match</key>
+			<string>(\")*\#[A-Z_]+(\/)*(\")*</string>
+			<key>name</key>
+			<string>support.type</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>On cherche les filtres SPIP</string>
+			<key>match</key>
+			<string>\|[a-z_\!\=\&gt;\&lt;\?]+</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\[\(\#REM</string>
+			<key>end</key>
+			<string>\]</string>
+			<key>name</key>
+			<string>comment.text.html</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>On cherche les filtres SPIP</string>
+			<key>match</key>
+			<string>\&lt;\:[a-z_]+\:\&gt;</string>
+			<key>name</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html</string>
+	<key>uuid</key>
+	<string>7b728234-a1c6-4066-8e7b-4b663bbe5371</string>
+</dict>
+</plist>
