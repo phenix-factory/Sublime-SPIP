@@ -50,10 +50,27 @@
 			<string>keyword</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>\&lt;INCLURE</string>
+			<key>end</key>
+			<string>\&gt;</string>
+			<key>name</key>
+			<string>keyword</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\{(.)*\}</string>
+					<key>name</key>
+					<string>string</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>On cherche les balises seul</string>
 			<key>match</key>
-			<string>(\")*\#[A-Z_]+(\/)*(\")*</string>
+			<string>\#[A-Z_]+</string>
 			<key>name</key>
 			<string>support.type</string>
 		</dict>
