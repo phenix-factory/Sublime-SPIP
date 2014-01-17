@@ -1,0 +1,64 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: HTML (SPIP)
+scopeName: text.html
+fileTypes: 
+- html
+uuid: 7b728234-a1c6-4066-8e7b-4b663bbe5371
+
+patterns:
+
+# Boucle de SPIP
+- name: keyword
+  begin: \<BOUCLE(.)
+  end: \>
+  patterns:
+  # Les objet SPIP dans les boucles
+  - name: constant.other.color
+    match: \([A-Z]+\)
+  # les critères de la boucles.
+  - name: entity.name.function
+    begin: \{
+    end: \}
+
+# Fermeture de boucle SPIP
+- name: keyword
+  begin: \</BOUCLE(.)
+  end: \>
+
+# préBoucle, postBoucle et Boucle alternative
+- name: keyword
+  match: \<(\/)*B(.)+\>
+
+# La Balise <INCLURE{}>
+- name: keyword
+  begin: \<INCLURE
+  end: \>
+  patterns:
+  - match: \{(.)*\}
+    name: string
+
+# Retrouver les balises seul
+- match: \#[A-Z_]+
+  name: support.type
+  comment: On cherche les balises seul
+
+
+# Filtre SPIP et leur attribut.
+- name: support.function
+  match: \|[a-z_\!\=\>\<\?]+
+  comment: On cherche les filtres SPIP
+
+# Commentaire du compilateur SPIP
+- name: comment.text.html
+  begin: \[\(\#REM
+  end: \]
+
+# Chaine de langue SPIP
+- match: \<\:[a-z_]+\:\>
+  name: string
+  comment: On cherche les filtres SPIP
+
+# On ne perd pas la syntaxe html
+# Par contre on la met à la fin pour être certain que la syntaxe SPIP passe au dessus
+- include: text.html.basic
