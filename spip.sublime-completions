@@ -38,7 +38,7 @@
 		{ "trigger": "#FORMULAIRE_INSCRIPTION", "contents": "[(#FORMULAIRE_INSCRIPTION{${0:6forum}})]" },
 		{ "trigger": "#FORMULAIRE_RECHERCHE", "contents": "[(#FORMULAIRE_RECHERCHE|spip.php?page=$0)]" },
 		{ "trigger": "#FORMULAIRE_SIGNATURE", "contents": "#FORMULAIRE_SIGNATURE" },
-        { "trigger": "#FORMULAIRE_EDITER_LOGO", "contents": "[(#FORMULAIRE_EDITER_LOGO{'${1:objet}',${0:#ID_OBJET},#SELF,#ENV**})]" },
+    { "trigger": "#FORMULAIRE_EDITER_LOGO", "contents": "[(#FORMULAIRE_EDITER_LOGO{'${1:objet}',${0:#ID_OBJET},#SELF,#ENV**})]" },
 		{ "trigger": "#SET", "contents": "#SET{$1, $0}" },
 		{ "trigger": "#GET", "contents": "#GET{$0}" },
 		{ "trigger": "#HAUTEUR", "contents": "#HAUTEUR" },
@@ -252,7 +252,7 @@
 		{ "trigger": "{inverse}", "contents": "inverse}"},
 		{ "trigger": "{tout}", "contents": "tout}"},
 		{ "trigger": "{origine_traduction}", "contents": "origine_traduction}"},
-		
+
 		// Enlève tout les accents, non documenté dans spip !
 		{ "trigger": "{transitteration}", "contents": "transitteration}"}
 	]
