@@ -2,7 +2,7 @@
 ---
 name: HTML (SPIP)
 scopeName: text.html
-fileTypes: 
+fileTypes:
 - html
 uuid: 7b728234-a1c6-4066-8e7b-4b663bbe5371
 
@@ -55,7 +55,7 @@ patterns:
   end: \]
 
 # Chaine de langue SPIP
-- match: \<\:[a-z_]+\:\>
+- match: \<\:[a-z0-9_]+\:\>
   name: string
   comment: On cherche les filtres SPIP
 
