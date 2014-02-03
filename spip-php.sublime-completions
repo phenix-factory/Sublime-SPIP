@@ -1,66 +1,63 @@
 {
-		"scope": "source.php",
-		"completions":
-		[
-			/* Inclure un fichier via SPIP */
-			{ "trigger": "include_spip", "contents": "include_spip('$0')" },
-			
-			/* Fonction de présentation */
-			{ "trigger": "gros_titre", "contents": "gros_titre('$0')" },
+  "scope": "source.php",
+  "completions":
+  [
+    /* Inclure un fichier via SPIP */
+    { "trigger": "include_spip", "contents": "include_spip('$0')" },
 
-			{ "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0:titre}');" },
-			
-			{ "trigger": "fin_cadre_relief", "contents": "fin_cadre_relief()" },
-			
-			{ "trigger": "debut_grand_cadre", "contents": "debut_grand_cadre(${0:true})" },
-			{ "trigger": "fin_grand_cadre", "contents": "fin_grand_cadre(${0:true})" },
-			
-			/*Récupération d'une varible de session SPIP (Mais pourquoi ils font ça les cons --' */
-			{ "trigger": "session_get", "contents": "session_get(${0:text})" },
+    /* Fonction de présentation */
+    { "trigger": "gros_titre", "contents": "gros_titre('$0')" },
 
-			/*Equivalent de inclure, mais en PHP*/
-			{ "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
-			
-            /*Find_in_path, équivalent de la balise #CHEMIN en php*/
-            { "trigger": "find_in_path", "contents": "find_in_path('$3');" },
-            
+    { "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0:titre}');" },
 
-			/* Création d'icone SPIP via PHP */
-			{ "trigger": "icone_inline", "contents": "icone_inline(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
-			
-            /*SPIP 3 icone_inline = icone_horizontale*/
-            { "trigger": "icone_horizontale", "contents": "icone_horizontale(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
+    { "trigger": "fin_cadre_relief", "contents": "fin_cadre_relief()" },
 
-			/* gestion des URL de SPIP */
-			{ "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('${1:exec}', '${0:paramètre}')" },
-            /* gestion des URL de SPIP */
-            { "trigger": "generer_url_public", "contents": "generer_url_public('${1:exec}', '${0:paramètre}')" },
+    { "trigger": "debut_grand_cadre", "contents": "debut_grand_cadre(${0:true})" },
+    { "trigger": "fin_grand_cadre", "contents": "fin_grand_cadre(${0:true})" },
 
-			// Recupérer une varibable
-			{ "trigger": "_request", "contents": "_request('$0')" },
-            // Recupérer une varibable
-            { "trigger": "set_request", "contents": "set_request('${1:nom}', ${0:valeur})" },
+    /*Récupération d'une varible de session SPIP */
+    { "trigger": "session_get", "contents": "session_get(${0:text})" },
 
-			// Fonction SQL de spip
-			{ "trigger": "sql_select", "contents": "sql_select('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
-			{ "trigger": "sql_get_select", "contents": "sql_get_select('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
-			{ "trigger": "sql_fetsel", "contents": "sql_fetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
-			{ "trigger": "sql_allfetsel", "contents": "sql_allfetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
-			{ "trigger": "sql_getfetsel", "contents": "sql_getfetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
-			{ "trigger": "sql_countsel", "contents": "sql_countsel('${1:table}', '${0:where}')" },
-			
-			{ "trigger": "sql_update", "contents": "sql_update('${1:table}', array('${2:champ}' => '${3:valeur}'), '${0:where}')" },
-			{ "trigger": "sql_updateq", "contents": "sql_updateq('${1:table}', array('${2:champ}' => '${3:valeur}'), '${0:where}')" },
-			{ "trigger": "sql_insert", "contents": "sql_insert('${1:table}', array('${2:champ}' => '${3:valeur}'))" },
-			{ "trigger": "sql_insertq", "contents": "sql_insertq('${1:table}', array('${2:champ}' => '${3:valeur}'))" },
-			{ "trigger": "sql_delete", "contents": "sql_delete('${1:table}', '${0:where}')" },
+    /*Equivalent de inclure, mais en PHP*/
+    { "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
 
-			{ "trigger": "sql_quote", "contents": "sql_quote(${0:var})" },
+    /*Find_in_path, équivalent de la balise #CHEMIN en php*/
+    { "trigger": "find_in_path", "contents": "find_in_path('$3');" },
 
-            /* Gestion des sessions de SPIP */
-            { "trigger": "session_set()", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
-            { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" }
-				
-				
-		]
+    /* Création d'icone SPIP via PHP */
+    { "trigger": "icone_inline", "contents": "icone_inline(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
+
+    /*SPIP 3 icone_inline = icone_horizontale*/
+    { "trigger": "icone_horizontale", "contents": "icone_horizontale(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
+
+    /* gestion des URL de SPIP */
+    { "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('${1:exec}', '${0:paramètre}')" },
+    /* gestion des URL de SPIP */
+    { "trigger": "generer_url_public", "contents": "generer_url_public('${1:exec}', '${0:paramètre}')" },
+
+    // Recupérer une varibable
+    { "trigger": "_request", "contents": "_request('$0')" },
+    // Recupérer une varibable
+    { "trigger": "set_request", "contents": "set_request('${1:nom}', ${0:valeur})" },
+
+    // Fonction SQL de spip
+    { "trigger": "sql_select", "contents": "sql_select('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
+    { "trigger": "sql_get_select", "contents": "sql_get_select('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
+    { "trigger": "sql_fetsel", "contents": "sql_fetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
+    { "trigger": "sql_allfetsel", "contents": "sql_allfetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
+    { "trigger": "sql_getfetsel", "contents": "sql_getfetsel('${1:champs}', '${2:table}', '${3:where}', '${4:groupby}', '${5:orderby}', '${6:limit}', '${0:having}')" },
+    { "trigger": "sql_countsel", "contents": "sql_countsel('${1:table}', '${0:where}')" },
+
+    { "trigger": "sql_update", "contents": "sql_update('${1:table}', array('${2:champ}' => '${3:valeur}'), '${0:where}')" },
+    { "trigger": "sql_updateq", "contents": "sql_updateq('${1:table}', array('${2:champ}' => '${3:valeur}'), '${0:where}')" },
+    { "trigger": "sql_insert", "contents": "sql_insert('${1:table}', array('${2:champ}' => '${3:valeur}'))" },
+    { "trigger": "sql_insertq", "contents": "sql_insertq('${1:table}', array('${2:champ}' => '${3:valeur}'))" },
+    { "trigger": "sql_delete", "contents": "sql_delete('${1:table}', '${0:where}')" },
+
+    { "trigger": "sql_quote", "contents": "sql_quote(${0:var})" },
+
+    /* Gestion des sessions de SPIP */
+    { "trigger": "session_set()", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
+    { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" }
+  ]
 }
