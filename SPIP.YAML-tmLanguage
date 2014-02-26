@@ -1,7 +1,7 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
 name: HTML (SPIP)
-scopeName: text.html
+scopeName: text.html.spip
 fileTypes:
 - html
 uuid: 7b728234-a1c6-4066-8e7b-4b663bbe5371
