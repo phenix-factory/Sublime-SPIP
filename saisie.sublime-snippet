@@ -4,10 +4,10 @@
 [(#SAISIE{
         ${1:input},
         ${2:name},
-        defaut=${3:valeur},
-        obligatoire=${4:oui_non},
         label=${5:label},
         explication=${6:texte},
+        defaut=${3:valeur},
+        obligatoire=${4:oui_non},
         li_class=${0:class},
         datas=[(#ARRAY{})]})]
 ]]></content>

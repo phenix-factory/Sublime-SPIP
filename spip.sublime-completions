@@ -3,7 +3,7 @@
 	"completions":
 	[
 		/* Balise SPIP */
-		{ "trigger": "<INCLURE{fond=}>", "contents": "<INCLURE{fond=$1, env}>" },
+		{ "trigger": "<INCLURE{fond=}>", "contents": "<INCLURE{fond=$0, env}>" },
 		{ "trigger": "#PAGINATION", "contents": "[<p class=\"pagination\">(#PAGINATION)</p>]" },
 		{ "trigger": "#ACCEPTER_FORUM", "contents": "[(#ACCEPTER_FORUM|=={non}|non) $0]" },
 		{ "trigger": "#ANCRE_PAGINATION", "contents": "#ANCRE_PAGINATION" },

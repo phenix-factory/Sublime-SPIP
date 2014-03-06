@@ -15,7 +15,11 @@
     { "trigger": "debut_grand_cadre", "contents": "debut_grand_cadre(${0:true})" },
     { "trigger": "fin_grand_cadre", "contents": "fin_grand_cadre(${0:true})" },
 
+<<<<<<< HEAD
     /*Récupération d'une varible de session SPIP */
+=======
+    /*Récupération d'une varible de session SPIP (Mais pourquoi ils font ça les cons --' */
+>>>>>>> master
     { "trigger": "session_get", "contents": "session_get(${0:text})" },
 
     /*Equivalent de inclure, mais en PHP*/
@@ -24,6 +28,10 @@
     /*Find_in_path, équivalent de la balise #CHEMIN en php*/
     { "trigger": "find_in_path", "contents": "find_in_path('$3');" },
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     /* Création d'icone SPIP via PHP */
     { "trigger": "icone_inline", "contents": "icone_inline(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
 
@@ -58,6 +66,15 @@
 
     /* Gestion des sessions de SPIP */
     { "trigger": "session_set()", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
+<<<<<<< HEAD
     { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" }
+=======
+    { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" },
+
+    /* API objet de SPIP */
+    { "trigger": "table_objet()", "contents": "table_objet('${0:table_sql}')" },
+    { "trigger": "table_objet_sql()", "contents": "table_objet_sql('${0:objet}')" },
+    { "trigger": "lister_tables_objets_sql()", "contents": "lister_tables_objets_sql('${0:table_sql_spip}')" }
+>>>>>>> master
   ]
 }
