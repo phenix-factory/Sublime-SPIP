@@ -4,7 +4,8 @@
   [
     /* Inclure un fichier via SPIP */
     { "trigger": "include_spip", "contents": "include_spip('$0')" },
-
+    /* Charger une fonction SPIP */
+    { "trigger": "charger_fonction", "contents": "charger_fonction(${1:nom}, ${0:dossier})" },
     /* Fonction de présentation */
     { "trigger": "gros_titre", "contents": "gros_titre('$0')" },
 
