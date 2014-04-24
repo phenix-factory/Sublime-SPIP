@@ -21,6 +21,7 @@
 
     /*Equivalent de inclure, mais en PHP*/
     { "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
+    { "trigger": "produire_fond_statique", "contents": "produire_fond_statique('${0:fond}', array())" },
 
     /*Find_in_path, équivalent de la balise #CHEMIN en php*/
     { "trigger": "find_in_path", "contents": "find_in_path('$3');" },
