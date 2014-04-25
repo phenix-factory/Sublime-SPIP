@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+if (!defined("_ECRIRE_INC_VERSION")) return;
+
+function action_exporter_auteurs_dist(\$arg=null) {
+  if (is_null(\$arg)){
+    \$securiser_action = charger_fonction('securiser_action', 'inc');
+    \$arg = \$securiser_action();
+  }
+
+}
+]]></content>
+  <description>Créer un fichier de base pour action SPIP</description>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>spip_action</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
