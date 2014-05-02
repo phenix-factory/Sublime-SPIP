@@ -9,7 +9,7 @@
     /* Fonction de présentation */
     { "trigger": "gros_titre", "contents": "gros_titre('$0')" },
 
-    { "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0:titre}');" },
+    { "trigger": "debut_cadre_relief", "contents": "debut_cadre_relief('', false, '', '${0:titre}')" },
 
     { "trigger": "fin_cadre_relief", "contents": "fin_cadre_relief()" },
 
@@ -24,14 +24,14 @@
     { "trigger": "produire_fond_statique", "contents": "produire_fond_statique('${0:fond}', array())" },
 
     /*Find_in_path, équivalent de la balise #CHEMIN en php*/
-    { "trigger": "find_in_path", "contents": "find_in_path('$3');" },
+    { "trigger": "find_in_path", "contents": "find_in_path('$3')" },
 
 
     /* Création d'icone SPIP via PHP */
-    { "trigger": "icone_inline", "contents": "icone_inline(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
+    { "trigger": "icone_inline", "contents": "icone_inline(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left')" },
 
     /*SPIP 3 icone_inline = icone_horizontale*/
-    { "trigger": "icone_horizontale", "contents": "icone_horizontale(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left');" },
+    { "trigger": "icone_horizontale", "contents": "icone_horizontale(_T('$1'), generer_url_ecrire('$2'), find_in_path('$3'), 'rien.gif', 'left')" },
 
     /* gestion des URL de SPIP */
     { "trigger": "generer_url_ecrire", "contents": "generer_url_ecrire('${1:exec}', '${0:paramètre}')" },
