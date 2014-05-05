@@ -59,13 +59,15 @@
     { "trigger": "sql_quote", "contents": "sql_quote(${0:var})" },
 
     /* Gestion des sessions de SPIP */
-    { "trigger": "session_set()", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
-
-    { "trigger": "session_get()", "contents": "session_get('${0:Nom}')" },
+    { "trigger": "session_set", "contents": "session_set('${1:Nom}', '${0:valeur}')" },
+    { "trigger": "session_get", "contents": "session_get('${0:Nom}')" },
 
     /* API objet de SPIP */
-    { "trigger": "table_objet()", "contents": "table_objet('${0:table_sql}')" },
-    { "trigger": "table_objet_sql()", "contents": "table_objet_sql('${0:objet}')" },
-    { "trigger": "lister_tables_objets_sql()", "contents": "lister_tables_objets_sql('${0:table_sql_spip}')" }
+    { "trigger": "table_objet", "contents": "table_objet('${0:table_sql}')" },
+    { "trigger": "table_objet_sql", "contents": "table_objet_sql('${0:objet}')" },
+    { "trigger": "lister_tables_objets_sql", "contents": "lister_tables_objets_sql('${0:table_sql_spip}')" },
+
+    /*Valider un mail */
+    { "trigger": "email_valide", "contents": "email_valide(${0:mail})" }
   ]
 }
