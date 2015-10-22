@@ -68,6 +68,9 @@
     { "trigger": "lister_tables_objets_sql", "contents": "lister_tables_objets_sql('${0:table_sql_spip}')" },
 
     /*Valider un mail */
-    { "trigger": "email_valide", "contents": "email_valide(${0:mail})" }
+    { "trigger": "email_valide", "contents": "email_valide(${0:mail})" },
+
+    /* Ajouter un log  */
+    { "trigger": "spip_log", "contents": "spip_log(${0:valeur}, 'test.' . _LOG_ERREUR);" }
   ]
 }
