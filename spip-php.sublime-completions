@@ -20,6 +20,7 @@
 
     /*Equivalent de inclure, mais en PHP*/
     { "trigger": "recuperer_fond", "contents": "recuperer_fond('${0:chemin}', array(), array('ajax' => false) )" },
+    { "trigger": "recuperer_page", "contents": "recuperer_page('${0:chemin}' )" },
     { "trigger": "produire_fond_statique", "contents": "produire_fond_statique('${0:fond}', array())" },
 
     /*Find_in_path, équivalent de la balise #CHEMIN en php*/

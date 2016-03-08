@@ -226,6 +226,7 @@
 		{ "trigger": "|PtoBR", "contents": "|PtoBR" },
 		{ "trigger": "|push", "contents": "|push{$0}" },
 		{ "trigger": "|recuperer_numero", "contents": "|recuperer_numero" },
+		{ "trigger": "|recuperer_page", "contents": "|recuperer_page" },
 		{ "trigger": "|replace", "contents": "|replace{${1:masque}, ${0:valeur}}" },
 		{ "trigger": "|reset", "contents": "|reset" },
 		{ "trigger": "|safehtml", "contents": "|safehtml" },
