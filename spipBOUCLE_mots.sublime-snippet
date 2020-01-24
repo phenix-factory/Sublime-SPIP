@@ -9,7 +9,7 @@
 </B_$1>
 <//B_$1>
 ]]></content>
-	<tabTrigger>BOUCLE_</tabTrigger>
+	<tabTrigger>BOUCLE</tabTrigger>
 	<description>Boucle mots</description>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
